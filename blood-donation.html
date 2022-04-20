@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+    <head>
+        <title>BLOOD DONATION</title>
+        <link rel="stylesheet" href="bloodpressure.css"> 
+        <style type="text/css">
+            body {
+     margin: 0;
+  font-size: 28px;
+  z-index: -100;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+  position:sticky;
+  z-index: 100;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color:  #ff0000  ;
+  color: black;
+}
+
+#navbar a.active {
+  background-color:#e50000; 
+  color: white;
+}
+            </style>
+    </head>
+    <body>
+        <header>
+           <div class="banner-center text-center">
+               <center>
+                <h1 class="display-2"><strong>BLOOD DONATION</strong></h1>
+                <div class="quote"><h2>"You are someone's type, Please Donate."</h2></div>
+            </center>
+            </div>
+             <form>
+             <div class="container"> 
+                 
+                 <label>Username : </label> 
+                 <input type="text" placeholder="Donor login" name="username" required>
+                 <label>Password : </label> 
+                 <input type="password" placeholder="Password" name="password" required>
+                 <button type="Login">Login</button> 
+                 <input type="checkbox" checked="checked"> Remember me 
+                 <button type="button" class="cancelbtn"> Cancel  </button> 
+                  <a href="#"> Forgot password? </a>
+                  
+             </div> 
+            </form>   
+        </header>
+         <br>
+        <div id="navbar">
+           <a class="active" href="#register" >Register</a>
+            <a href="#info">Info</a>
+            <a href="#whocanDonate">Who Can Donate?</a>
+            <a href="#refer">Refer A Friend</a>
+            <a href="#footer">Contact</a>
+        </div>
+
+        <div class="title">
+            <h2 class="display-3" id="register">Register</h2>
+            <p>First name: <input type="text" name="first_name" />
+            Last name: <input type="text" name="last_name" /><br>
+            User ID: <input type="text" name="User_id" />
+            Password: <input type="password" name="password" /></p>
+        </div>
+        <div class="topnav">
+    
+           <h2 id="info" align="center" style="color: #e50000">Why donate blood?</h2>
+           <p>Blood Donation is for public donation e health and well being of the community. The need is constant, and there is no substitute for volunteer blood donations.
+          Every 2 seconds, someone needs a blood transfusion. And, each donation can help save up to three lives. Read below to learn more about donating.</p>
+
+       </div>
+       <div class="modal-body" >
+        <h2 id="whocanDonate" align="center" style="color: #e50000" >Who Can Donate?</h2>
+        <ul>
+        <li>Any donor, who is healthy, fit and not suffering from any transmittable diseases can donate blood.</li>
+        <li>Donor must be 18 -60 years age and having a minimum weight of 50Kg can donate blood.</li>
+        <li>Donor’s Hemoglobin level is 12.5% minimum.</li>
+        <li>A donor can again donate blood after 3 months of your last donation of blood.</li>
+        <li>Pulse rate must be between 50 to 100mm without any irregularities.</li>
+        <li>BP Diastolic 50 to 100 mm Hg and Systolic 100 to 180 mm Hg.</li>
+        <li>Body temperature should be normal and oral temperature should not exceed 37.5 degree Celsius.</li>
+        </ul>
+     </div>
+    
+
+
+    <div class="find" >
+    <h2 align="center" style="color: #e50000" >Find A Donor</h2>
+    <p>State: <input type="text" name="state" /><br>
+        <img src="bp.png" alt="Test Image" width="150" height="100" border="3" align="right"/>
+    City: <input type="text" name="city" /><br>
+    Area: <input type="text" name="area" /><br>
+    Group: <input type="password" name="group" /><br>
+    <input type="submit" value="Submit" /></p>
+    </div>
+    
+    <div class="donation" >
+    <h2 align="center" style="color: #e50000" >Donation Process</h2>
+    <ul>
+    <li>Donor fills up the registration form and gives his consent for donation</li>
+    <li>Donors Medical History & life style is asked, check up of temperature, blood pressure, pulse and haemoglobin.</li>
+    <li>Phlebotomist draws unit (350ml/450ml) of blood. A new sterile meedle is used to draw each unit and the needle is destroyed after it has been used. It taked less than 10 min</li>
+    <li>Enjoy Snacks and drinks juice to replenish fluids. </li>
+    </ul>
+    </div>
+    <center>
+    <div class="where">
+        <h2 align="center" style="color: #e50000" >Where Would You Like To Donate</h2>
+        <input type="search" name="search" size="150"/>
+        <input type="submit" value="Search" /> 
+    </div>
+    
+    <h2 align="center" style="color: #e50000" >Feedback</h2>
+    
+    <textarea rows="5" cols="50"  >
+
+    </textarea>
+    <section id="footer" class="container-fluid text-center">
+        
+        <div class="topnav">
+         <h1 class="display-4" style="padding-right: 30px">Contact Us</h1>
+        </div>
+        <p style="margin-left:38px">1800-5667-12</p>
+        <div class="copyrights">
+           <h4>&copy; - 2021</h4>
+          </div>
+        </center>
+      </section>
+    </body>
+</html>
